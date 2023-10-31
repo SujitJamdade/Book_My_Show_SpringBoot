@@ -1,13 +1,11 @@
 package com.learning.BookmyShowProject.Models;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @Table(name = "user")
+@Builder // Builder object requires AllArgsConstructor annotation
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
