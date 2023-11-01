@@ -18,8 +18,8 @@ public class UserService {
     @Autowired
     UserRepository userRepository;
 
-    @Autowired
-    UserTransformer userTransformer;
+//    @Autowired
+//    UserTransformer userTransformer;
 
     public String addUser(AddUserRequest addUserRequest){
 
